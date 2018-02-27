@@ -1,4 +1,4 @@
-----------------CAPUT REPOSITORY README-------------------
+----------------GORILLAS REPOSITORY README-------------------
 
 This repository contains documentation and source code of a 
 reengineering project. Where we (my collaborators and I) ported
