@@ -1,0 +1,2456 @@
+I-Logix-RPY-Archive version 8.7.1 Java 5066837
+{ ISubsystem 
+	- _id = GUID 5eb9f9f2-7661-438a-b13d-4b8011c47081;
+	- _myState = 8192;
+	- _name = "Default";
+	- _lastID = 14;
+	- Declaratives = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IStereotype 
+			- _id = GUID eecb1072-98ad-4903-8997-8f12be3d2c6e;
+			- _myState = 8192;
+			- _name = "Entity";
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Class"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID 68cba3a5-7a13-4a58-a27a-d8c4734931ef;
+			- _myState = 8192;
+			- _name = "control";
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Class"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID 87475cc2-8d65-4428-8907-599fd58f5423;
+			- _myState = 8192;
+			- _name = "boundary";
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Class"; 
+			}
+		}
+	}
+	- weakCGTime = 4.7.2017::19:0:25;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID 7ba0b043-d67e-4ae8-bfca-9b0ddbe0d697;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 12;
+		- value = 
+		{ IClass 
+			- _id = GUID 7ba0b043-d67e-4ae8-bfca-9b0ddbe0d697;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 4.6.2017::22:5:51;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+			- _myState = 8192;
+			- _name = "Entity";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 68cba3a5-7a13-4a58-a27a-d8c4734931ef;
+				}
+			}
+			- TemplateParameters = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 5;
+			- weakCGTime = 4.7.2017::18:59:45;
+			- strongCGTime = 3.30.2017::22:30:54;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID bfa41fab-171f-4571-aa19-25108cd7c0e5;
+					- _myState = 8192;
+					- _name = "CollisionDetect";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAttribute 
+					- _id = GUID d2a06bc0-c494-4974-ae5b-3c65a572a31f;
+					- _myState = 8192;
+					- _name = "X_Coord";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID e32c8a0d-f3bf-4ac2-8efa-3aed89a2585c;
+					- _myState = 8192;
+					- _name = "Y_Coord";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID b34ac1b8-72ef-41bb-84aa-6840f50bbab3;
+					- _myState = 8192;
+					- _name = "DetectionRadius";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID ab85844c-9168-4c0d-87ff-28d99cbc563c;
+					- _myState = 10240;
+					- _name = "itsGame_Panel_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b0d61177-fb49-45ba-9928-75036c7d0a26;
+					}
+					- _linkName = "";
+					- _linkType = Composition;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 21a9bf65-2011-4fed-94fc-256abc7a9121;
+					- _myState = 10240;
+					- _name = "itsGame_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d6e0705e-9910-45f9-bb66-794df066516d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 044fcba6-e11c-4f88-ab27-afdcc17b17d9;
+			- _myState = 8192;
+			- _name = "Banana";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID eecb1072-98ad-4903-8997-8f12be3d2c6e;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 2;
+			- weakCGTime = 4.7.2017::18:59:45;
+			- strongCGTime = 3.30.2017::22:20:42;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID d098aa42-3d5c-4c06-a0a5-b1d7c437c60f;
+					- _myState = 8192;
+					- _name = "Draw";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAttribute 
+					- _id = GUID a79e4034-2c5a-492d-ac84-c428dc0f601a;
+					- _myState = 8192;
+					- _name = "LeftRightUpDown";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID c595d745-a476-4138-840a-890b69026e56;
+					- _ti = { ITemplateInst 
+						- _id = GUID 4cbe328f-2b3e-4641-8cba-942bc9637124;
+						- _ofTemplate = { IHandle 
+							- _m2Class = "IClass";
+							- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 938c1fa6-3fa5-47ab-9a8d-68c0510ccc17;
+					- _myState = 10240;
+					- _name = "itsGame_Panel_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID af268d61-71ca-4e6f-96ca-9f071c9190f6;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1a187ee9-2754-4110-82c4-435fe316e4c7;
+					- _myState = 10240;
+					- _name = "itsGame_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3c844b2c-3857-4fd6-b0e3-7f99f49b6243;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 1f95ef29-87f2-4016-b87a-1924839dc8f7;
+			- _myState = 8192;
+			- _name = "Gorilla";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID eecb1072-98ad-4903-8997-8f12be3d2c6e;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 5;
+			- weakCGTime = 4.7.2017::18:59:45;
+			- strongCGTime = 3.30.2017::22:20:31;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 9eaa0559-0d6e-4791-ad1c-831b0d762072;
+					- _myState = 8192;
+					- _name = "VictoryDance";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 9e0c4d75-75bb-42c9-bd5c-f0a5dd6d3869;
+					- _myState = 8192;
+					- _name = "Draw";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 66730ae3-ea7a-49cb-8da8-ae68c4336903;
+					- _myState = 8192;
+					- _name = "ExplodeGorilla";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 04843637-826d-45b9-9022-58d9f10f6b86;
+					- _myState = 8192;
+					- _name = "ArmsLR";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 0e92f86a-8fa5-484c-bff1-30f988b23fd9;
+					- _ti = { ITemplateInst 
+						- _id = GUID 9c35a0c7-140c-4f43-802c-c88ff5e742aa;
+						- _ofTemplate = { IHandle 
+							- _m2Class = "IClass";
+							- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 78bd0947-2fb4-4598-9ea2-c47915039252;
+					- _myState = 10240;
+					- _name = "itsGame_Panel_3";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 45aae9d8-47db-44f6-98e5-b163487e78d6;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID f1eacde6-fb34-4d6d-be73-8ed2d9d24d67;
+					- _myState = 10240;
+					- _name = "itsGame_Panel_2";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 5fbdc6e7-f9cc-48de-9472-3b7f0e04eaca;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1834dc4a-5e68-4370-969d-5de55389070c;
+					- _myState = 10240;
+					- _name = "itsGorillaIntro_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 24fbac6b-4433-4254-a4a5-ba4567bf1469;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID eda3666e-5030-4c33-9894-9d7f0fc03b84;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID b60cd3c9-10a8-40ce-9c30-9be0e3e0644d;
+			- _myState = 8192;
+			- _name = "Sun";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID eecb1072-98ad-4903-8997-8f12be3d2c6e;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 2;
+			- weakCGTime = 4.7.2017::18:59:45;
+			- strongCGTime = 3.30.2017::22:20:21;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID fb73a288-338b-433b-84ba-0dea998b7e01;
+					- _myState = 8192;
+					- _name = "Draw";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAttribute 
+					- _id = GUID b1ac8556-b220-4c76-b636-c4a3b0502cf1;
+					- _myState = 8192;
+					- _name = "Radius";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID def76539-8f2a-4ab6-a9e1-8b6872dcdec8;
+					- _ti = { ITemplateInst 
+						- _id = GUID 4742f505-7eaf-4d20-8e41-423711e9cbe8;
+						- _ofTemplate = { IHandle 
+							- _m2Class = "IClass";
+							- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 5d3c5bdd-0e7e-45f2-9959-e67e6ba6d7eb;
+					- _myState = 10240;
+					- _name = "itsGame_Panel_3";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 7ab08654-9512-420f-933a-3285f990315d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 4ff38faf-402c-4d8f-805d-1c0ab52669c3;
+					- _myState = 10240;
+					- _name = "itsGame_Panel_2";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 7d8838ca-e90c-4dae-b77d-354339365871;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID a7eaab52-83c2-4a5c-b46c-e9ab756c4b17;
+			- _myState = 8192;
+			- _name = "Game";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 68cba3a5-7a13-4a58-a27a-d8c4734931ef;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 7;
+			- weakCGTime = 4.7.2017::18:59:45;
+			- strongCGTime = 4.6.2017::22:9:6;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 51ccf325-0481-4e8f-a2d3-8befd576fbdc;
+					- _myState = 8192;
+					- _name = "DoShot";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID cb0c8c22-7b5b-4f2e-a8b0-e17860ad1958;
+					- _myState = 8192;
+					- _name = "PlotShot";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IAttribute 
+					- _id = GUID c82f35db-cbaf-4874-99a2-b80d46a2ce4a;
+					- _myState = 8192;
+					- _name = "ShotAngle";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 1d064bed-efa1-4f48-b567-08b887089333;
+					- _myState = 8192;
+					- _name = "collision";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID aab71727-1047-4ae0-8e01-086cd7006b9d;
+					- _myState = 8192;
+					- _name = "Score";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID a47b8b25-66d9-4ffd-8195-f5e134d55a53;
+					- _myState = 8192;
+					- _name = "ShotPower";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 0b8c992a-1ac0-41a6-bcac-52f96ce17b24;
+					- _myState = 10240;
+					- _name = "itsGame_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 672aee54-63d7-4582-b315-ade953f6d068;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+			- _myState = 8192;
+			- _name = "Game_Panel";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 87475cc2-8d65-4428-8907-599fd58f5423;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 11;
+			- Declaratives = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IInformationFlow 
+					- _id = GUID 5cb5a6bd-c181-4053-bbf3-5a67b973fac5;
+					- _myState = 2048;
+					- _name = "Game_Panel_GameOver_Panel";
+					- end1_ = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- end2_ = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID c2ecfd1d-d4cb-41f1-aee3-ae16863a82fd;
+					}
+					- direction_ = toEnd2;
+				}
+			}
+			- weakCGTime = 4.7.2017::18:59:54;
+			- strongCGTime = 4.7.2017::18:59:45;
+			- Operations = { IRPYRawContainer 
+				- size = 7;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 3c1ba7ec-11f6-4768-b94f-41cefdfba211;
+					- _myState = 8192;
+					- _name = "MakeCitySpace";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 5fac0619-8d76-42ea-9fde-a97d7d23f9ff;
+					- _myState = 8192;
+					- _name = "PlaceGorillas";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID b40d0ed4-c717-477b-bf04-74c3dcc73d39;
+					- _myState = 8192;
+					- _name = "SetScreen";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID a5dc788d-f4d5-42f7-b2a4-3d2ac312199d;
+					- _myState = 8192;
+					- _name = "ExitPressed";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 438bc30b-49a2-41f7-9c32-866a43e4c07a;
+					- _myState = 8192;
+					- _name = "SparklePause";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IConstructor 
+					- _id = GUID d2f3ae17-7425-4607-9ad0-c4d88b82970c;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 5;
+						- value = 
+						{ IArgument 
+							- _id = GUID 983f5ab4-d68a-4856-81b0-3ca334298b86;
+							- _myState = 8192;
+							- _name = "NumPlayers";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesJava.sbs";
+								- _subsystem = "PredefinedTypesJava";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID d6239a9f-a323-49d2-b3dc-d753600dbbdf;
+							- _myState = 8192;
+							- _name = "Player1Name";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesJava.sbs";
+								- _subsystem = "PredefinedTypesJava";
+								- _class = "";
+								- _name = "String";
+								- _id = GUID cb97d0d7-bf5d-4020-b25e-f6a87117705a;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID 3adfddd9-2352-4d41-bcf4-bd8b82747fb0;
+							- _myState = 8192;
+							- _name = "Player2Name";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesJava.sbs";
+								- _subsystem = "PredefinedTypesJava";
+								- _class = "";
+								- _name = "String";
+								- _id = GUID cb97d0d7-bf5d-4020-b25e-f6a87117705a;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID 7ac008a1-00cc-4c86-ae9a-3623679409eb;
+							- _myState = 8192;
+							- _name = "Gravity";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesJava.sbs";
+								- _subsystem = "PredefinedTypesJava";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID fe230cee-40c8-4cf0-ae2e-db4398151231;
+							- _myState = 8192;
+							- _name = "NumRounds";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesJava.sbs";
+								- _subsystem = "PredefinedTypesJava";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _initializer = "";
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 4e95dfb1-9676-4cd3-ae57-b60152f30b82;
+					- _myState = 8192;
+					- _name = "UpdateScores";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAttribute 
+					- _id = GUID c737cfbf-66eb-4af3-a3d9-556cf669cd11;
+					- _myState = 8192;
+					- _name = "Game";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a7eaab52-83c2-4a5c-b46c-e9ab756c4b17;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 4c7fee0c-ea7a-4774-ab14-9b32ebeaa15f;
+					- _myState = 8192;
+					- _name = "EntityList";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 1f060992-ccf8-4a84-abc7-d0b2eef5dfd1;
+					- _myState = 8192;
+					- _name = "Level";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 15;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 7ab08654-9512-420f-933a-3285f990315d;
+					- _myState = 10240;
+					- _name = "itsSun";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID b60cd3c9-10a8-40ce-9c30-9be0e3e0644d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 5d3c5bdd-0e7e-45f2-9959-e67e6ba6d7eb;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 45aae9d8-47db-44f6-98e5-b163487e78d6;
+					- _myState = 10240;
+					- _name = "itsGorilla";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1f95ef29-87f2-4016-b87a-1924839dc8f7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 78bd0947-2fb4-4598-9ea2-c47915039252;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID af268d61-71ca-4e6f-96ca-9f071c9190f6;
+					- _myState = 10240;
+					- _name = "itsBanana";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 044fcba6-e11c-4f88-ab27-afdcc17b17d9;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 938c1fa6-3fa5-47ab-9a8d-68c0510ccc17;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 672aee54-63d7-4582-b315-ade953f6d068;
+					- _myState = 10240;
+					- _name = "itsGame";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a7eaab52-83c2-4a5c-b46c-e9ab756c4b17;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 0b8c992a-1ac0-41a6-bcac-52f96ce17b24;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 276e2322-acd6-4176-9fdf-ec2b23d49747;
+					- _myState = 10240;
+					- _name = "itsBuilding";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 8969d5b3-b9da-423b-8164-07b7aef6c64b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 90264aa1-0e22-451c-8f34-5f4a203610a8;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 79269f5e-84ad-4d55-82e6-5e66b71213fc;
+					- _myState = 10240;
+					- _name = "itsBuilding_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 8969d5b3-b9da-423b-8164-07b7aef6c64b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b8783266-5330-4038-a1f8-8234828da31d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 833647d8-01cf-4d6c-ba54-e68b37e9f8fe;
+					- _myState = 10240;
+					- _name = "itsBuilding_2";
+					- _multiplicity = "1...*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 8969d5b3-b9da-423b-8164-07b7aef6c64b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 08cf8596-6d6d-4965-bbe8-093af24d87b2;
+					}
+					- _linkName = "";
+					- _linkType = Composition;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 7d8838ca-e90c-4dae-b77d-354339365871;
+					- _myState = 10240;
+					- _name = "itsSun_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID b60cd3c9-10a8-40ce-9c30-9be0e3e0644d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4ff38faf-402c-4d8f-805d-1c0ab52669c3;
+					}
+					- _linkName = "";
+					- _linkType = Composition;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 5fbdc6e7-f9cc-48de-9472-3b7f0e04eaca;
+					- _myState = 10240;
+					- _name = "itsGorilla_1";
+					- _multiplicity = "2";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1f95ef29-87f2-4016-b87a-1924839dc8f7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f1eacde6-fb34-4d6d-be73-8ed2d9d24d67;
+					}
+					- _linkName = "";
+					- _linkType = Composition;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 3c844b2c-3857-4fd6-b0e3-7f99f49b6243;
+					- _myState = 10240;
+					- _name = "itsBanana_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 044fcba6-e11c-4f88-ab27-afdcc17b17d9;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1a187ee9-2754-4110-82c4-435fe316e4c7;
+					}
+					- _linkName = "";
+					- _linkType = Composition;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID b0d61177-fb49-45ba-9928-75036c7d0a26;
+					- _myState = 10240;
+					- _name = "itsEntity";
+					- _ti = { ITemplateInst 
+						- _id = GUID 077a6664-f453-40a0-b129-a9d2b46a8a10;
+						- _ofTemplate = { IHandle 
+							- _m2Class = "IClass";
+							- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+						}
+					}
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID ab85844c-9168-4c0d-87ff-28d99cbc563c;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d6e0705e-9910-45f9-bb66-794df066516d;
+					- _myState = 10240;
+					- _name = "itsEntity_1";
+					- _ti = { ITemplateInst 
+						- _id = GUID 2cec1b76-20ab-436f-ae76-f40c3653d966;
+						- _ofTemplate = { IHandle 
+							- _m2Class = "IClass";
+							- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+						}
+					}
+					- _multiplicity = "1...*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 21a9bf65-2011-4fed-94fc-256abc7a9121;
+					}
+					- _linkName = "";
+					- _linkType = Composition;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6f467c47-de4b-4150-a804-a2366e1d1ae5;
+					- _myState = 10240;
+					- _name = "itsGameOver_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID c2ecfd1d-d4cb-41f1-aee3-ae16863a82fd;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID c627b333-173f-436c-996f-00096a10a40b;
+					- _myState = 10240;
+					- _name = "itsMain_UI";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID f8961518-03ed-47e3-af7a-8e7fb2552709;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d4b4d5c4-0c03-4c4e-88d5-018849ec286f;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID ec3483ad-1d42-4b9b-a0f0-4a7b28685661;
+					- _myState = 10240;
+					- _name = "itsGame_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a7eaab52-83c2-4a5c-b46c-e9ab756c4b17;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 0def8c43-aa38-4f62-84bc-e17cf2ab4649;
+			- _myState = 8192;
+			- _name = "Intro_Panel";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 87475cc2-8d65-4428-8907-599fd58f5423;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 10;
+			- Declaratives = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IInformationFlow 
+					- _id = GUID df0994f0-63c7-4f10-8383-f204161c1edb;
+					- _myState = 2048;
+					- _name = "Intro_Panel_GorillaIntro_Panel";
+					- end1_ = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 0def8c43-aa38-4f62-84bc-e17cf2ab4649;
+					}
+					- end2_ = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 24fbac6b-4433-4254-a4a5-ba4567bf1469;
+					}
+					- direction_ = toEnd2;
+				}
+			}
+			- weakCGTime = 4.7.2017::19:0:0;
+			- strongCGTime = 4.7.2017::19:0:0;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 6cb8886e-5b67-493b-bb52-2b3e0fdb8247;
+					- _myState = 8192;
+					- _name = "Exit";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID f4a546fb-7998-4098-88ac-27c527726251;
+					- _myState = 8192;
+					- _name = "Play";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID e4bc80c4-efee-445d-b6c8-38e2c5e51324;
+					- _myState = 8192;
+					- _name = "getinputs";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IAttribute 
+					- _id = GUID eb3a0569-6824-4301-b33b-4ffdc0b523d1;
+					- _myState = 8192;
+					- _name = "Difficulty";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 53feb2b1-004a-4bb9-a1db-9b653e281088;
+					- _myState = 8192;
+					- _name = "NumPlayers";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID efbf67d8-356b-4dc0-803f-90b4e70ea4dd;
+					- _myState = 8192;
+					- _name = "Player1Name";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "String";
+						- _id = GUID cb97d0d7-bf5d-4020-b25e-f6a87117705a;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 4f3bfb26-ea3b-4a96-b981-9c2ab1b5215d;
+					- _myState = 8192;
+					- _name = "Player2Name";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "String";
+						- _id = GUID cb97d0d7-bf5d-4020-b25e-f6a87117705a;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID e9869882-711a-48f8-89c5-4dc64a632f71;
+					- _myState = 8192;
+					- _name = "Gravity";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID dafbfd2b-eae9-4a2d-a70f-585cdc06148c;
+					- _myState = 10240;
+					- _name = "itsGorillaIntro_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 24fbac6b-4433-4254-a4a5-ba4567bf1469;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID ae175de6-c86b-4203-ae17-6c7dd03dc8d0;
+					- _myState = 10240;
+					- _name = "itsGame_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 4c9b4f55-287b-46db-b4f7-49029e88d24c;
+					- _myState = 10240;
+					- _name = "itsMain_UI";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID f8961518-03ed-47e3-af7a-8e7fb2552709;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID eee77b49-3ea0-46d0-bc1b-87bb03a3752d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 24fbac6b-4433-4254-a4a5-ba4567bf1469;
+			- _myState = 8192;
+			- _name = "GorillaIntro_Panel";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 87475cc2-8d65-4428-8907-599fd58f5423;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 4;
+			- Declaratives = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IInformationFlow 
+					- _id = GUID 620c9668-bf74-4865-9a97-61fb1adcf687;
+					- _myState = 2048;
+					- _name = "GorillaIntro_Panel_Game_Panel";
+					- end1_ = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 24fbac6b-4433-4254-a4a5-ba4567bf1469;
+					}
+					- end2_ = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- direction_ = toEnd2;
+				}
+			}
+			- weakCGTime = 4.7.2017::19:0:25;
+			- strongCGTime = 4.7.2017::18:59:39;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 814e3779-48fe-4942-9874-d0627d8d3cd0;
+					- _myState = 8192;
+					- _name = "Continue";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAttribute 
+					- _id = GUID c24ccedc-888e-4f83-be61-b1fcf1cab463;
+					- _myState = 8192;
+					- _name = "Gorilla1";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1f95ef29-87f2-4016-b87a-1924839dc8f7;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 1e617e47-109b-4618-9caf-d4f7adede0c8;
+					- _myState = 8192;
+					- _name = "aGorilla2";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1f95ef29-87f2-4016-b87a-1924839dc8f7;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 94acbe5f-ba2b-4eea-a997-ac1c24304df5;
+					- _myState = 10240;
+					- _name = "itsGame_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID eda3666e-5030-4c33-9894-9d7f0fc03b84;
+					- _myState = 10240;
+					- _name = "itsGorilla";
+					- _multiplicity = "2";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1f95ef29-87f2-4016-b87a-1924839dc8f7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1834dc4a-5e68-4370-969d-5de55389070c;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 98a3c0c2-f443-4a4a-b0ab-d1eda1ca1c4a;
+					- _myState = 10240;
+					- _name = "itsMain_UI";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID f8961518-03ed-47e3-af7a-8e7fb2552709;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 335afcb3-5481-4103-ad29-72e82fae2a20;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 9d972762-13e6-4e17-958c-1756474226fb;
+					- _myState = 10240;
+					- _name = "itsGorilla_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1f95ef29-87f2-4016-b87a-1924839dc8f7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID c2ecfd1d-d4cb-41f1-aee3-ae16863a82fd;
+			- _myState = 8192;
+			- _name = "GameOver_Panel";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 87475cc2-8d65-4428-8907-599fd58f5423;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 6;
+			- weakCGTime = 4.7.2017::19:0:0;
+			- strongCGTime = 4.7.2017::18:59:54;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 70d3ba01-6942-4aa2-8f67-7f88b6e19b36;
+					- _myState = 8192;
+					- _name = "Exit";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID ecbe02c6-02fa-4cd8-a0e1-ec5728e27c3f;
+					- _myState = 8192;
+					- _name = "GotoIntro";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 57b30f72-e5ff-49ca-a0fa-7f005c153173;
+					- _myState = 8192;
+					- _name = "Player1Score";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 2044c246-8e4b-4f1d-82f2-43939a62e6dd;
+					- _myState = 8192;
+					- _name = "Player2Score";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID f751b9e7-cb7e-4bbb-b5c4-c9e2be5bb58f;
+					- _myState = 10240;
+					- _name = "itsIntro_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 0def8c43-aa38-4f62-84bc-e17cf2ab4649;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 73cb7636-e343-495f-98ab-9d1fc0f02b49;
+					- _myState = 10240;
+					- _name = "itsMain_UI";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID f8961518-03ed-47e3-af7a-8e7fb2552709;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID ca289d13-1171-41d1-9916-0e9fbad987ae;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 8969d5b3-b9da-423b-8164-07b7aef6c64b;
+			- _myState = 8192;
+			- _name = "Building";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID eecb1072-98ad-4903-8997-8f12be3d2c6e;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 3;
+			- weakCGTime = 4.7.2017::18:59:45;
+			- strongCGTime = 3.30.2017::22:20:2;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 6c24f1ed-f9c1-4f09-90dd-c09df6d14408;
+					- _myState = 8192;
+					- _name = "Draw";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 561a490c-775e-4d3b-bf06-e4fe7ed9385d;
+					- _myState = 8192;
+					- _name = "Height";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID ad39063e-c482-4b5e-8a69-1d52bf841a22;
+					- _myState = 8192;
+					- _name = "Color";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 5fe62779-3ba4-4138-bb54-4374b700fe9f;
+					- _ti = { ITemplateInst 
+						- _id = GUID 669b7ab3-93f4-465d-80b6-302a9960bb3f;
+						- _ofTemplate = { IHandle 
+							- _m2Class = "IClass";
+							- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ffc3b466-3349-48de-9a7e-7b5fbaffc61c;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 90264aa1-0e22-451c-8f34-5f4a203610a8;
+					- _myState = 10240;
+					- _name = "itsGame_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 276e2322-acd6-4176-9fdf-ec2b23d49747;
+					}
+					- _linkName = "";
+					- _linkType = Composition;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID b8783266-5330-4038-a1f8-8234828da31d;
+					- _myState = 10240;
+					- _name = "itsGame_Panel_2";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 79269f5e-84ad-4d55-82e6-5e66b71213fc;
+					}
+					- _linkName = "";
+					- _linkType = Composition;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 08cf8596-6d6d-4965-bbe8-093af24d87b2;
+					- _myState = 10240;
+					- _name = "itsGame_Panel_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 833647d8-01cf-4d6c-ba54-e68b37e9f8fe;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID f8961518-03ed-47e3-af7a-8e7fb2552709;
+			- _myState = 8192;
+			- _name = "Main_UI";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 68cba3a5-7a13-4a58-a27a-d8c4734931ef;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "gorillaz";
+				- _id = GUID f623f5cb-27ef-4c4b-8a45-5378113b39e3;
+			}
+			- _lastID = 6;
+			- weakCGTime = 4.7.2017::19:0:0;
+			- strongCGTime = 4.7.2017::18:53:21;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID ffeed976-97ac-4893-88e6-2be299f9bed1;
+					- _myState = 8192;
+					- _name = "run";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IAttribute 
+					- _id = GUID b041c2db-2dd0-470f-8c7c-6c2c062c37d9;
+					- _myState = 8192;
+					- _name = "attribute_1";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID c2ecfd1d-d4cb-41f1-aee3-ae16863a82fd;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 32c84caf-82d9-48de-b9ee-829b037f8b29;
+					- _myState = 8192;
+					- _name = "attribute_2";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 0def8c43-aa38-4f62-84bc-e17cf2ab4649;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID d93f852f-d3fd-42f3-b033-68111dfb7291;
+					- _myState = 8192;
+					- _name = "attribute_3";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID b0e6d370-85b8-4ee6-a82f-ad5750331c72;
+					- _myState = 8192;
+					- _name = "attribute_4";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 24fbac6b-4433-4254-a4a5-ba4567bf1469;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 6;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 6bb14ead-55d2-4041-ad47-b2fdd67097ae;
+					- _myState = 10240;
+					- _name = "itsGorillaIntro_Panel_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 24fbac6b-4433-4254-a4a5-ba4567bf1469;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 5982f2b4-376a-4d67-83bd-622e4c651ec4;
+					- _myState = 10240;
+					- _name = "itsGame_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 335afcb3-5481-4103-ad29-72e82fae2a20;
+					- _myState = 10240;
+					- _name = "itsGorillaIntro_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 24fbac6b-4433-4254-a4a5-ba4567bf1469;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 98a3c0c2-f443-4a4a-b0ab-d1eda1ca1c4a;
+					}
+					- _linkName = "";
+					- _linkType = Aggreg;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d4b4d5c4-0c03-4c4e-88d5-018849ec286f;
+					- _myState = 10240;
+					- _name = "itsGame_Panel_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9f00eac5-1be8-47e3-b722-5eeb48ab72fe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c627b333-173f-436c-996f-00096a10a40b;
+					}
+					- _linkName = "";
+					- _linkType = Aggreg;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID ca289d13-1171-41d1-9916-0e9fbad987ae;
+					- _myState = 10240;
+					- _name = "itsGameOver_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID c2ecfd1d-d4cb-41f1-aee3-ae16863a82fd;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 73cb7636-e343-495f-98ab-9d1fc0f02b49;
+					}
+					- _linkName = "";
+					- _linkType = Aggreg;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID eee77b49-3ea0-46d0-bc1b-87bb03a3752d;
+					- _myState = 10240;
+					- _name = "itsIntro_Panel";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 0def8c43-aa38-4f62-84bc-e17cf2ab4649;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4c9b4f55-287b-46db-b4f7-49029e88d24c;
+					}
+					- _linkName = "";
+					- _linkType = Aggreg;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

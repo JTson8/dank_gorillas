@@ -1,0 +1,19 @@
+NF-01: The system shall be able to update the on screen graphics in a time limit of no longer than 1 second.
+NF-02: The system shall be capable of running on any computer capable of executing a JAR executable file.
+NF-03: The system shall pose no obvious risk or interference with other process on the system.
+NF-04: The system shall not take longer to than 1 second to respond to user input.
+NF-05: The system shall have well-structure code and program architecture.
+NF-06: The system shall be documented properly for easy maintainability.
+NF-07: The system shall not affect any files other than its own on the user's system.
+NF-08: The system shall not allow the user to scale the screen size.
+NF-09: The system shall not allow buildings to be built outside of the rendered screen.
+NF-10: The system shall adhere to the max-height allowance for a building when constructing the terrain.
+NF-11: The system shall detect collisions using rectangles.
+NF-12: The system shall use Colour Graphics Adapter, Enhanced Graphics Adapter, or Video Graphics Array Adapter to play Gorilla.
+NF-13: The system shall run at a consistent speed, despite the computer used.
+NF-14: The system shall handle any unexpected errors, safely.
+NF-15: The system shall not take longer than 1 seconds to switch between states.
+NF-16: The system shall not take longer than 5 seconds to execute sprite animations.
+NF-17: The system shall remove all rendered graphics of an explosion after the explosion has passed.
+NF-18: The system shall allow for two players.
+NF-19: The system shall not allow more games than the limit of 99 games.
